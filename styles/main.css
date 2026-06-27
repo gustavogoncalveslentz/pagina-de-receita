@@ -1,0 +1,22 @@
+.page {
+  width: 800px;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+  margin: 48px auto;
+  box-sizing: border-box;
+}
+
+.about {
+  padding-inline: 30px;
+  h1 {
+    font: var(--h1);
+    color: var(--text-color-primary);
+    padding-block: 24px 4px;
+    line-height: 0;
+  }
+  p {
+    font: var(--text);
+    color: var(--text-color-secondary);
+  }
+}
