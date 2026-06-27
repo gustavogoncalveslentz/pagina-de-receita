@@ -3,6 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font: var(--text);
+  background-image: url(/assets/images/bg-image\ \(4\).png);
+  background-size: cover;
 }
 
 :root {
