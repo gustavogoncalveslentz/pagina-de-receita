@@ -20,3 +20,34 @@
     color: var(--text-color-secondary);
   }
 }
+
+.ingredients {
+  padding-inline: 30px;
+  h2 {
+    font: var(--h2);
+    color: var(--text-color-primary);
+    line-height: 0;
+    padding-bottom: 4px;
+    padding-top: 24px;
+  }
+  ul {
+    li {
+      font: var(--text);
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+.preparation {
+  padding-inline: 30px;
+  h2 {
+    font: var(--h2);
+    color: var(--text-color-primary);
+    line-height: 0;
+    padding-block: 24px 4px;
+  }
+  p {
+    font: var(--text);
+    color: var(--text-color-secondary);
+  }
+}
